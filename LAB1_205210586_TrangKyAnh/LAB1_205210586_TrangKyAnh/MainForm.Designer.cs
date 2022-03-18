@@ -95,6 +95,7 @@
             this.Bai5.TabIndex = 5;
             this.Bai5.Text = "Bài 5";
             this.Bai5.UseVisualStyleBackColor = true;
+            this.Bai5.Click += new System.EventHandler(this.Bai5_Click);
             // 
             // Bai6
             // 

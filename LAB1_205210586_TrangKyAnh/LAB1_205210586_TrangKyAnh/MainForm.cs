@@ -40,5 +40,11 @@ namespace LAB1_205210586_TrangKyAnh
             Exercise4 exercise4 = new Exercise4(); 
             exercise4.Show();
         }
+
+        private void Bai5_Click(object sender, EventArgs e)
+        {
+            Exercise5 exercise5 = new Exercise5();
+            exercise5.Show();
+        }
     }
 }
