@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LAB1_205210586_TrangKyAnh
 {
-    public partial class Exercise5 : Form
+    public partial class Lab01_Bai5 : Form
     {
-        public Exercise5()
+        public Lab01_Bai5()
         {
             InitializeComponent();
         }

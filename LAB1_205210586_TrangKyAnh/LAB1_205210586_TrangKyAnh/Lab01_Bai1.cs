@@ -11,9 +11,9 @@ using System.IO;
 
 namespace LAB1_205210586_TrangKyAnh
 {
-    public partial class Exercise1 : Form
+    public partial class Lab01_Bai1 : Form
     {
-        public Exercise1()
+        public Lab01_Bai1()
         {
             InitializeComponent();
         }

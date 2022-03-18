@@ -1,6 +1,6 @@
 ﻿namespace LAB1_205210586_TrangKyAnh
 {
-    partial class Exercise3
+    partial class Lab01_Bai3
     {
         /// <summary>
         /// Required designer variable.

@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace LAB1_205210586_TrangKyAnh
 {
-    public partial class Exercise4 : Form
+    public partial class Lab01_Bai4 : Form
     {
         private Label ctrl;
 
-        public Exercise4()
+        public Lab01_Bai4()
         {
             InitializeComponent();
         }
