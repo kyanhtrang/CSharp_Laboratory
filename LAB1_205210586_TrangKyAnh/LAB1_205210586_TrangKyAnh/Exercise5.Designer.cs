@@ -159,9 +159,8 @@
             this.GiaiThuaA.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GiaiThuaA.Location = new System.Drawing.Point(50, 250);
             this.GiaiThuaA.Name = "GiaiThuaA";
-            this.GiaiThuaA.Size = new System.Drawing.Size(70, 26);
+            this.GiaiThuaA.Size = new System.Drawing.Size(0, 26);
             this.GiaiThuaA.TabIndex = 25;
-            this.GiaiThuaA.Text = "label1";
             // 
             // Sum3
             // 
@@ -171,9 +170,8 @@
             this.Sum3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sum3.Location = new System.Drawing.Point(50, 400);
             this.Sum3.Name = "Sum3";
-            this.Sum3.Size = new System.Drawing.Size(70, 26);
+            this.Sum3.Size = new System.Drawing.Size(0, 26);
             this.Sum3.TabIndex = 26;
-            this.Sum3.Text = "label1";
             // 
             // Sum2
             // 
@@ -183,9 +181,8 @@
             this.Sum2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sum2.Location = new System.Drawing.Point(50, 350);
             this.Sum2.Name = "Sum2";
-            this.Sum2.Size = new System.Drawing.Size(70, 26);
+            this.Sum2.Size = new System.Drawing.Size(0, 26);
             this.Sum2.TabIndex = 27;
-            this.Sum2.Text = "label1";
             // 
             // Sum1
             // 
@@ -195,9 +192,8 @@
             this.Sum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sum1.Location = new System.Drawing.Point(50, 300);
             this.Sum1.Name = "Sum1";
-            this.Sum1.Size = new System.Drawing.Size(70, 26);
+            this.Sum1.Size = new System.Drawing.Size(0, 26);
             this.Sum1.TabIndex = 28;
-            this.Sum1.Text = "label1";
             // 
             // GiaiThuaB
             // 
@@ -207,9 +203,8 @@
             this.GiaiThuaB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GiaiThuaB.Location = new System.Drawing.Point(450, 250);
             this.GiaiThuaB.Name = "GiaiThuaB";
-            this.GiaiThuaB.Size = new System.Drawing.Size(70, 26);
+            this.GiaiThuaB.Size = new System.Drawing.Size(0, 26);
             this.GiaiThuaB.TabIndex = 29;
-            this.GiaiThuaB.Text = "label1";
             // 
             // Exercise5
             // 

@@ -64,7 +64,7 @@
             this.Select.FormattingEnabled = true;
             this.Select.Items.AddRange(new object[] {
             "USD",
-            "EUR ",
+            "EUR",
             "GBP",
             "SGD",
             "JPY"});

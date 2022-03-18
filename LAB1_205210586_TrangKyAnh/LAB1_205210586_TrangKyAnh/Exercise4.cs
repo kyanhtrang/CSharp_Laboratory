@@ -12,6 +12,8 @@ namespace LAB1_205210586_TrangKyAnh
 {
     public partial class Exercise4 : Form
     {
+        private Label ctrl;
+
         public Exercise4()
         {
             InitializeComponent();
@@ -34,7 +36,7 @@ namespace LAB1_205210586_TrangKyAnh
                     case "EUR":
                         Res = number * 28132;
                         ShowBox.Text = Res.ToString();
-                        ShowText.Text = "1 EUR = 27130 VNĐ";
+                        ShowText.Text = "1 EUR = 28132";
                         break;
                     case "GBP":
                         Res = number * 31538;
@@ -50,8 +52,7 @@ namespace LAB1_205210586_TrangKyAnh
                         Res = number * 214;
                         ShowBox.Text = Res.ToString();
                         ShowText.Text = "1 JPY = 214 VNĐ";
-                        break;
-    
+                        break;    
                 }
                 
             }
