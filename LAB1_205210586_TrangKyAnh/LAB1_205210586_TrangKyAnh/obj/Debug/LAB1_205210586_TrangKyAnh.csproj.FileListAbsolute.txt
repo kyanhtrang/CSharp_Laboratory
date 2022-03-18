@@ -1,0 +1,14 @@
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\bin\Debug\LAB1_205210586_TrangKyAnh.exe.config
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\bin\Debug\LAB1_205210586_TrangKyAnh.exe
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\bin\Debug\LAB1_205210586_TrangKyAnh.pdb
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.csproj.AssemblyReference.cache
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.csproj.SuggestedBindingRedirects.cache
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.Main.resources
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.Properties.Resources.resources
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.csproj.GenerateResource.cache
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.csproj.CoreCompileInputs.cache
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.exe
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.pdb
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.Exercise1.resources
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.Exercise2.resources
+D:\Tài liệu\Lập trình Mạng căn bản\Thực hành\LAB1_205210586_TrangKyAnh\LAB1_205210586_TrangKyAnh\obj\Debug\LAB1_205210586_TrangKyAnh.Exercise3.resources
