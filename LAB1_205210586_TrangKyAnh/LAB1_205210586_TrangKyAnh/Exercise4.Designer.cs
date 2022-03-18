@@ -39,6 +39,7 @@
             this.display2 = new System.Windows.Forms.Label();
             this.Clear = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
+            this.ShowText = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
@@ -67,30 +68,32 @@
             "GBP",
             "SGD",
             "JPY"});
-            this.Select.Location = new System.Drawing.Point(550, 100);
+            this.Select.Location = new System.Drawing.Point(550, 125);
             this.Select.Name = "Select";
             this.Select.Size = new System.Drawing.Size(200, 30);
             this.Select.TabIndex = 2;
             // 
             // Money
             // 
+            this.Money.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Money.AutoSize = true;
             this.Money.BackColor = System.Drawing.Color.Transparent;
             this.Money.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Money.Location = new System.Drawing.Point(25, 100);
+            this.Money.Location = new System.Drawing.Point(50, 125);
             this.Money.Name = "Money";
-            this.Money.Size = new System.Drawing.Size(194, 29);
+            this.Money.Size = new System.Drawing.Size(178, 26);
             this.Money.TabIndex = 3;
             this.Money.Text = "Số tiền cần đổi:";
             // 
             // Currency
             // 
+            this.Currency.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Currency.AutoSize = true;
             this.Currency.BackColor = System.Drawing.Color.Transparent;
             this.Currency.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Currency.Location = new System.Drawing.Point(450, 100);
+            this.Currency.Location = new System.Drawing.Point(450, 125);
             this.Currency.Name = "Currency";
-            this.Currency.Size = new System.Drawing.Size(93, 29);
+            this.Currency.Size = new System.Drawing.Size(87, 26);
             this.Currency.TabIndex = 4;
             this.Currency.Text = "Đơn vị:";
             // 
@@ -99,9 +102,9 @@
             this.NumberBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NumberBox.BackColor = System.Drawing.SystemColors.HighlightText;
             this.NumberBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumberBox.Location = new System.Drawing.Point(225, 100);
+            this.NumberBox.Location = new System.Drawing.Point(250, 125);
             this.NumberBox.Name = "NumberBox";
-            this.NumberBox.Size = new System.Drawing.Size(200, 32);
+            this.NumberBox.Size = new System.Drawing.Size(175, 32);
             this.NumberBox.TabIndex = 16;
             // 
             // display1
@@ -110,9 +113,9 @@
             this.display1.AutoSize = true;
             this.display1.BackColor = System.Drawing.Color.Transparent;
             this.display1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display1.Location = new System.Drawing.Point(25, 250);
+            this.display1.Location = new System.Drawing.Point(50, 275);
             this.display1.Name = "display1";
-            this.display1.Size = new System.Drawing.Size(182, 29);
+            this.display1.Size = new System.Drawing.Size(166, 26);
             this.display1.TabIndex = 17;
             this.display1.Text = "Số tiền đã đổi:";
             // 
@@ -121,7 +124,7 @@
             this.ShowBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ShowBox.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ShowBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ShowBox.Location = new System.Drawing.Point(225, 250);
+            this.ShowBox.Location = new System.Drawing.Point(250, 275);
             this.ShowBox.Name = "ShowBox";
             this.ShowBox.Size = new System.Drawing.Size(325, 32);
             this.ShowBox.TabIndex = 18;
@@ -130,12 +133,13 @@
             // 
             this.GetRes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.GetRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GetRes.Location = new System.Drawing.Point(25, 150);
+            this.GetRes.Location = new System.Drawing.Point(50, 175);
             this.GetRes.Name = "GetRes";
-            this.GetRes.Size = new System.Drawing.Size(725, 35);
+            this.GetRes.Size = new System.Drawing.Size(700, 35);
             this.GetRes.TabIndex = 19;
             this.GetRes.Text = "Chuyển đổi";
             this.GetRes.UseVisualStyleBackColor = true;
+            this.GetRes.Click += new System.EventHandler(this.GetRes_Click);
             // 
             // display2
             // 
@@ -143,9 +147,9 @@
             this.display2.AutoSize = true;
             this.display2.BackColor = System.Drawing.Color.Transparent;
             this.display2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.display2.Location = new System.Drawing.Point(25, 350);
+            this.display2.Location = new System.Drawing.Point(50, 350);
             this.display2.Name = "display2";
-            this.display2.Size = new System.Drawing.Size(179, 29);
+            this.display2.Size = new System.Drawing.Size(161, 26);
             this.display2.TabIndex = 20;
             this.display2.Text = "Tỉ giá quy đổi:";
             // 
@@ -153,12 +157,13 @@
             // 
             this.Clear.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Clear.Location = new System.Drawing.Point(650, 250);
+            this.Clear.Location = new System.Drawing.Point(650, 275);
             this.Clear.Name = "Clear";
             this.Clear.Size = new System.Drawing.Size(100, 35);
             this.Clear.TabIndex = 21;
             this.Clear.Text = "Xóa";
             this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.Clear_Click);
             // 
             // Close
             // 
@@ -170,6 +175,19 @@
             this.Close.TabIndex = 22;
             this.Close.Text = "Thoát";
             this.Close.UseVisualStyleBackColor = true;
+            this.Close.Click += new System.EventHandler(this.Close_Click);
+            // 
+            // ShowText
+            // 
+            this.ShowText.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ShowText.AutoSize = true;
+            this.ShowText.BackColor = System.Drawing.Color.Transparent;
+            this.ShowText.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.ShowText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShowText.Location = new System.Drawing.Point(250, 350);
+            this.ShowText.Name = "ShowText";
+            this.ShowText.Size = new System.Drawing.Size(0, 26);
+            this.ShowText.TabIndex = 23;
             // 
             // Exercise4
             // 
@@ -178,6 +196,7 @@
             this.BackgroundImage = global::LAB1_205210586_TrangKyAnh.Properties.Resources.yuriy_kovalev_nN1HSDtKdlw_unsplash;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ShowText);
             this.Controls.Add(this.Close);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.display2);
@@ -212,5 +231,6 @@
         private System.Windows.Forms.Label display2;
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Close;
+        private System.Windows.Forms.Label ShowText;
     }
 }

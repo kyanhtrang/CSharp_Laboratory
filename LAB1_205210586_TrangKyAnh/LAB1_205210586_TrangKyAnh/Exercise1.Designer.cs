@@ -122,12 +122,12 @@
             // 
             // GetResult
             // 
+            this.GetResult.BackColor = System.Drawing.Color.Transparent;
             this.GetResult.Location = new System.Drawing.Point(1219, 201);
             this.GetResult.Name = "GetResult";
             this.GetResult.Size = new System.Drawing.Size(75, 23);
             this.GetResult.TabIndex = 7;
-            this.GetResult.Text = "Tính";
-            this.GetResult.UseVisualStyleBackColor = true;
+            this.GetResult.UseVisualStyleBackColor = false;
             // 
             // getRes
             // 

@@ -47,7 +47,7 @@
             this.Title.ForeColor = System.Drawing.Color.OrangeRed;
             this.Title.Location = new System.Drawing.Point(308, 25);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(201, 52);
+            this.Title.Size = new System.Drawing.Size(196, 51);
             this.Title.TabIndex = 0;
             this.Title.Text = "ĐỌC SỐ";
             this.Title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -95,7 +95,7 @@
             this.TextRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextRes.Location = new System.Drawing.Point(175, 250);
             this.TextRes.Name = "TextRes";
-            this.TextRes.Size = new System.Drawing.Size(600, 32);
+            this.TextRes.Size = new System.Drawing.Size(575, 32);
             this.TextRes.TabIndex = 12;
             // 
             // Result
@@ -112,12 +112,13 @@
             // 
             // Number
             // 
+            this.Number.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Number.AutoSize = true;
             this.Number.BackColor = System.Drawing.Color.Transparent;
             this.Number.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Number.Location = new System.Drawing.Point(50, 150);
             this.Number.Name = "Number";
-            this.Number.Size = new System.Drawing.Size(411, 29);
+            this.Number.Size = new System.Drawing.Size(383, 26);
             this.Number.TabIndex = 14;
             this.Number.Text = "Nhập vào một số bất kỳ từ 0 đến 9:";
             // 
@@ -126,7 +127,7 @@
             this.NumberBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.NumberBox.BackColor = System.Drawing.SystemColors.HighlightText;
             this.NumberBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumberBox.Location = new System.Drawing.Point(475, 150);
+            this.NumberBox.Location = new System.Drawing.Point(450, 150);
             this.NumberBox.Name = "NumberBox";
             this.NumberBox.Size = new System.Drawing.Size(300, 32);
             this.NumberBox.TabIndex = 15;
