@@ -1,6 +1,6 @@
 ﻿namespace LAB2_20521086_TrangKyAnh
 {
-    partial class Form1
+    partial class Lab02_Bai2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Lab02_Bai2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackgroundImage = global::LAB2_20521086_TrangKyAnh.Properties.Resources.gradienta_OzfD79w8ptA_unsplash;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(782, 478);
+            this.Name = "Lab02_Bai2";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LAB 2 - 20521086 - Trang Kỳ Anh - Bài 2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
