@@ -71,6 +71,7 @@
             this.Lab02_Bai2.TabIndex = 2;
             this.Lab02_Bai2.Text = "Bài 2";
             this.Lab02_Bai2.UseVisualStyleBackColor = true;
+            this.Lab02_Bai2.Click += new System.EventHandler(this.Lab02_Bai2_Click);
             // 
             // Lab02_Bai3
             // 
@@ -82,6 +83,7 @@
             this.Lab02_Bai3.TabIndex = 3;
             this.Lab02_Bai3.Text = "Bài 3";
             this.Lab02_Bai3.UseVisualStyleBackColor = true;
+            this.Lab02_Bai3.Click += new System.EventHandler(this.Lab02_Bai3_Click);
             // 
             // Lab02_Bai4
             // 
@@ -93,6 +95,7 @@
             this.Lab02_Bai4.TabIndex = 4;
             this.Lab02_Bai4.Text = "Bài 4";
             this.Lab02_Bai4.UseVisualStyleBackColor = true;
+            this.Lab02_Bai4.Click += new System.EventHandler(this.Lab02_Bai4_Click);
             // 
             // Lab02_Bai5
             // 
@@ -104,6 +107,7 @@
             this.Lab02_Bai5.TabIndex = 5;
             this.Lab02_Bai5.Text = "Bài 5";
             this.Lab02_Bai5.UseVisualStyleBackColor = true;
+            this.Lab02_Bai5.Click += new System.EventHandler(this.Lab02_Bai5_Click);
             // 
             // MainMenu
             // 
@@ -118,6 +122,7 @@
             this.Controls.Add(this.Lab02_Bai2);
             this.Controls.Add(this.Lab02_Bai1);
             this.Controls.Add(this.Title);
+            this.MaximizeBox = false;
             this.Name = "MainMenu";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

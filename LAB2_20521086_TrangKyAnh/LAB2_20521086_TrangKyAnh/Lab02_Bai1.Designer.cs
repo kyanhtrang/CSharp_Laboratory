@@ -33,6 +33,7 @@
             this.btnRead = new System.Windows.Forms.Button();
             this.btnWrite = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Title
@@ -46,7 +47,7 @@
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(364, 46);
             this.Title.TabIndex = 0;
-            this.Title.Text = "GHI VÀ ĐỌC FILE";
+            this.Title.Text = "ĐỌC VÀ GHI FILE";
             // 
             // TextShow
             // 
@@ -61,32 +62,46 @@
             // btnRead
             // 
             this.btnRead.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRead.Location = new System.Drawing.Point(25, 125);
+            this.btnRead.Location = new System.Drawing.Point(25, 100);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(200, 50);
             this.btnRead.TabIndex = 2;
             this.btnRead.Text = "ĐỌC FILE";
             this.btnRead.UseVisualStyleBackColor = true;
+            this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
             // btnWrite
             // 
             this.btnWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnWrite.Location = new System.Drawing.Point(25, 250);
+            this.btnWrite.Location = new System.Drawing.Point(25, 200);
             this.btnWrite.Name = "btnWrite";
             this.btnWrite.Size = new System.Drawing.Size(200, 50);
             this.btnWrite.TabIndex = 3;
             this.btnWrite.Text = "GHI FILE";
             this.btnWrite.UseVisualStyleBackColor = true;
+            this.btnWrite.Click += new System.EventHandler(this.btnWrite_Click);
             // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(25, 375);
+            this.btnExit.Location = new System.Drawing.Point(25, 400);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(200, 50);
             this.btnExit.TabIndex = 4;
             this.btnExit.Text = "THOÁT";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnClear
+            // 
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(25, 300);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(200, 50);
+            this.btnClear.TabIndex = 5;
+            this.btnClear.Text = "XÓA";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // Lab02_Bai1
             // 
@@ -95,11 +110,13 @@
             this.BackgroundImage = global::LAB2_20521086_TrangKyAnh.Properties.Resources.gradienta_OzfD79w8ptA_unsplash;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(782, 478);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnWrite);
             this.Controls.Add(this.btnRead);
             this.Controls.Add(this.TextShow);
             this.Controls.Add(this.Title);
+            this.MaximizeBox = false;
             this.Name = "Lab02_Bai1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -116,5 +133,6 @@
         private System.Windows.Forms.Button btnRead;
         private System.Windows.Forms.Button btnWrite;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnClear;
     }
 }
