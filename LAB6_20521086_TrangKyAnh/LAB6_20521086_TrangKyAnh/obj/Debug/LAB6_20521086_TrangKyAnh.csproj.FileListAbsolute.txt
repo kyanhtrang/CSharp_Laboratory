@@ -1,0 +1,11 @@
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\bin\Debug\LAB6_20521086_TrangKyAnh.exe.config
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\bin\Debug\LAB6_20521086_TrangKyAnh.exe
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\bin\Debug\LAB6_20521086_TrangKyAnh.pdb
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.csproj.AssemblyReference.cache
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.csproj.SuggestedBindingRedirects.cache
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.Properties.Resources.resources
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.csproj.GenerateResource.cache
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.csproj.CoreCompileInputs.cache
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.exe
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.pdb
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\LAB6_20521086_TrangKyAnh\LAB6_20521086_TrangKyAnh\obj\Debug\LAB6_20521086_TrangKyAnh.LAB6_20521086_TrangKyAnh.resources

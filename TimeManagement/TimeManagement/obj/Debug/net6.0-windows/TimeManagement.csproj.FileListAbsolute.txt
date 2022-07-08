@@ -1,0 +1,6 @@
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\TimeManagement\TimeManagement\obj\Debug\net6.0-windows\TimeManagement.csproj.AssemblyReference.cache
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\TimeManagement\TimeManagement\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\TimeManagement\TimeManagement\obj\Debug\net6.0-windows\test.g.cs
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\TimeManagement\TimeManagement\obj\Debug\net6.0-windows\App.g.cs
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\TimeManagement\TimeManagement\obj\Debug\net6.0-windows\TimeManagement_MarkupCompile.cache
+D:\Tài liệu\Lập trình Mạng căn bản\THỰC HÀNH\CSharp_Laboratory\TimeManagement\TimeManagement\obj\Debug\net6.0-windows\TimeManagement_MarkupCompile.lref
